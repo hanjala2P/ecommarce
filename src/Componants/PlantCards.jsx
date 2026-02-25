@@ -4,7 +4,9 @@ import { Link } from 'react-router';
 const PlantCards = ({plant}) => {
     const {name,image,description,alt,price,category}=plant
     return (
-    <div className="card mt-4 bg-base-100 shadow-sm hover:shadow-xl transition-shadow duration-300">
+      
+   <div>
+     <div className="card mt-4 bg-base-100 shadow-sm hover:shadow-xl transition-shadow duration-300">
   <figure>
     <img className='h-64 w-full'
       src={image}
@@ -23,6 +25,7 @@ const PlantCards = ({plant}) => {
     </div>
   </div>
 </div>
+   </div>
     );
 };
 

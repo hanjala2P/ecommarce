@@ -23,7 +23,7 @@ const Nav = () => {
         <li><NavLink className={({isActive})=>isActive?'bg-primary text-white hover:bg-primary/80':""} to="/about">About</NavLink></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-2xl font-medium text-lime-600">Fresh <span className='text-lime-800'>Orchard</span></a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
